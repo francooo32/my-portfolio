@@ -1,0 +1,20 @@
+.portfolioTitle{
+    background-color: #252525;
+    color: black;
+    padding-top: 80px;
+}
+
+.portfolioTitle > h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
+.portfolio{
+    background-color: #252525;
+    color: black;
+}
+

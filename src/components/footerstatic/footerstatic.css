@@ -1,0 +1,65 @@
+.footerstatic {
+    width: 100%;
+    height: 0vh;
+    background-color: #252525;
+    color: white;
+    padding-top: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.footerstatic-sns {
+    width: 70%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.footerstatic-sns .footestaticdesign-by{
+    padding-bottom: 10px;
+}
+
+.footerstaticsns-links {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.instagram, .behance, .linkedin, .envelope {
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 6px;
+    border-bottom: 4px solid transparent;
+}
+
+.instagram:hover, .behance:hover, .linkedin:hover, .envelope:hover {
+    border-color: white;
+    transition: all 0.3s ease-out;
+}
+
+.footerstaticdesign-by {
+    font-size: 18px;
+    padding-left: 50px;
+    color: white;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .footerstaticfooter-sns {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footerstaticdesign-by {
+        padding: 0 0 40px 0;
+    }
+}
+
