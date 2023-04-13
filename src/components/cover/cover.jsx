@@ -28,7 +28,7 @@ return(
   <section className="banner" id="home">
     <Container>
       <Row className="aligh-items-center">
-        <Col xs={12} md={6} xl={12}>
+        <Col xs={12} md={6} xl={7}>
           {/* <TrackVisibility> */}
             {/* {({ isVisible }) =>
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
@@ -37,7 +37,8 @@ return(
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
 
-                <h1>{`FrancoDev&Art`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "FullStack Developer", "Web Developer", "Web Designer" ]'><span className="wrap">Web dev</span></span></h1>
+                <h1>{`FrancoDev&Art`} </h1>
+                <h3>{`FrancoDev&Art`} </h3>
                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
 

@@ -78,7 +78,7 @@
     padding: 260px 0 100px 0;
     height: 100vh;
     /* background-image: url('./assets/img/banner-bg.png'); */
-    /* background-image: url(../../assets/img/banner-bg.png); */
+    background-image: url('../../assets/img/logoLetra.png');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,15 +95,26 @@
     display: inline-block;
   }
   .banner h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin: 100px 0 0 300px;
+    display: flex;
+  }
+
+  .banner h3 {
     font-size: 65px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.8px;
-    font-family: 'Pixel-Art', sans-serif;
     line-height: 1;
     margin-bottom: 20px;
     display: block;
   }
+
   .banner p {
     color: #B8B8B8;
     font-size: 18px;
