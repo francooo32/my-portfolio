@@ -51,7 +51,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
-          <Col md={6} xl={7}>
+          <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
                 <h1>{`Franco`} </h1>
                 <h3>{`Dev&Art`} </h3>

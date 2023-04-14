@@ -317,8 +317,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width:960px) {
 	.banner {
-    background-size: 100% 75%;
-    background-position-x: -100px;
+    background-size: 100% 90%;
+    background-position-x: -60px;
+    height: 80vh;
+  }
+
+  .banner h1 {
+    font-size: 80px;
+  }
+  .banner h3 {
+    font-size: 30px;
+    margin: 0 0 0 100px;
   }
 }
 
