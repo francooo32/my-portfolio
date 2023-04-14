@@ -315,6 +315,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+@media (max-width:960px) {
+	.banner {
+    background-size: 100% 75%;
+    background-position-x: -100px;
+  }
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
