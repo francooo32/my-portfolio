@@ -1,9 +1,12 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { ColorPallet } from "./ColorPallet";
+import { WorkCircle } from "./WorkCircle";
 import projImg1 from "../assets/img/deniseFront1.png";
 import projImg2 from "../assets/img/deniseFront2.png";
 import projImg3 from "../assets/img/deniseFront3.png";
+import workVideo1 from "../assets/animations/animationsComponent/circuloProgramFinal2.mp4";
+import workVideo2 from "../assets/animations/animationsComponent/circuloProgramFinal2.mp4";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -46,31 +49,58 @@ export const Projects = () => {
     }
   ];
 
+  const works = [
+    {
+      title: "#252525",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+    {
+      title: "#eef2ff",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+    {
+      title: "#2c2c54",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+    {
+      title: "#252525",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+    {
+      title: "#eef2ff",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+    {
+      title: "#2c2c54",
+      description: "Design & Development",
+      videoUrl: workVideo1,
+      videoUrl2: workVideo2,
+    },
+  ];
+
   return (
     <section className="project" id="project">
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
+            <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Proyectos</h2>
                 <p>Estos son algunos de mis trabajos recientes, diseñados y desarrollados principalmente con ReactJs, 
                   JavaScript, Css para el front end y Java, SpringBoot, Spring security, Sql para el back end.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav> */}
+                <Tab.Container id="projects-tabs">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    {/* <Tab.Pane eventKey="first"> */}
                       <Row>
                         <h1>Portfolio Web</h1>
                         {
@@ -94,14 +124,18 @@ export const Projects = () => {
                             )
                           })
                         }
+                        <h3 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h3>
+                        {
+                          works.map((work, index) => {
+                            return (
+                              <WorkCircle
+                                key={index}
+                                {...work}
+                                />
+                            )
+                          })
+                        }
                       </Row>
-                    {/* </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}

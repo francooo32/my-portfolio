@@ -376,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: rgb(15, 15, 15);
+  background-color: #111111;
 }
 .project h1 {
 	font-family: 'Proxima Nova', sans-serif;
@@ -466,11 +466,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx img{
   width: 100%;
-  height: auto;
+  height: 260px;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(64deg, #7487f1 -27.91%, #28214d 92.58%);
+  /* background: linear-gradient(64deg, #7487f1 10.09%, #28214d 84.58%); */
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -506,6 +508,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+.proj-imgbx-animated {
+  height: 70px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  justify-content: center;
+  display: flex;
+}
+
+.proj-txtx-animated {
+  /* height: 70px; */
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  justify-content: center;
+  display: flex;
+  /* position: absolute; */
+  text-align: center;
+  /* top: 65%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* transition: 0.5s ease-in-out; */
+  /* opacity: 0; */
+  width: 100%;
+}
+.proj-txtx-animated h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx-animated span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
 .background-image-right {
   top: 20%;
   position: absolute;
