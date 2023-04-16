@@ -32,7 +32,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #151515 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -236,12 +236,61 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100vh;
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/logoLetra.png');
+  background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
+             rgb(15 15 15 / 14%) 40.58%), 
+              url('./assets/img/logoLetra.png');
+  /* background-size: cover; */
+  /* background-image: url('./assets/img/logoLetra.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #151515;
+  animation: animate 1.3s linear alternate infinite;
 }
+/* @keyframes animate {
+  from{
+    background: radial-gradient(circle at 62%, rgba(55, 89, 201, 0) 2.09%,
+             rgba(15, 15, 15, 0) 40.58%), 
+             url('./assets/img/logoLetra.png');
+  } 
+  to{
+    background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
+             rgb(15 15 15 / 14%) 40.58%), 
+             url('./assets/img/logoLetra.png');
+  }
+} */
+
+@keyframes animate {
+  0%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 0) 2.09%,
+    rgba(15, 15, 15, 0) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  12%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 3%) 2.09%,
+    rgba(15, 15, 15, 1.5%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  25%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 5%) 2.09%,
+    rgba(15, 15, 15, 3%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  36%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 8%) 2.09%,
+    rgba(15, 15, 15, 4.5%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  50%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 10%) 2.09%,
+    rgba(15, 15, 15, 6%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  66%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 14%) 2.09%,
+    rgba(15, 15, 15, 9%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  75%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 17%) 2.09%,
+    rgba(15, 15, 15, 11%) 40.58%), 
+    url('./assets/img/logoLetra.png');}  
+  86%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 19.5%) 2.09%,
+    rgba(15, 15, 15, 12.5%) 40.58%), 
+    url('./assets/img/logoLetra.png');}    
+  100%{background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
+    rgb(15 15 15 / 14%) 40.58%), 
+    url('./assets/img/logoLetra.png');}
+  } 
+  
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -316,11 +365,88 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width:960px) {
+
+  @keyframes animate {
+    0%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 0) 2.09%,
+      rgba(15, 15, 15, 0) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    12%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 3%) 2.09%,
+      rgba(15, 15, 15, 1.5%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    25%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 5%) 2.09%,
+      rgba(15, 15, 15, 3%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    36%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 8%) 2.09%,
+      rgba(15, 15, 15, 4.5%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    50%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 10%) 2.09%,
+      rgba(15, 15, 15, 6%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    66%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 14%) 2.09%,
+      rgba(15, 15, 15, 9%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    75%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 17%) 2.09%,
+      rgba(15, 15, 15, 11%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}  
+    86%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 19.5%) 2.09%,
+      rgba(15, 15, 15, 12.5%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}    
+    100%{background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
+      rgb(15 15 15 / 14%) 40.58%), 
+      url('./assets/img/logoLetra.png');
+      background-size: 100% 70%;
+      background-position-x: -60px;
+      background-position-y: 50px;
+      background-color: #101010;
+      background-repeat: no-repeat;}
+    } 
+
 	.banner {
     background-size: 100% 70%;
     background-position-x: -60px;
     background-position-y: 50px;
-    height: 100vh;
+    background-color: #101010;
+    background-repeat: no-repeat;
   }
 
   .banner h1 {
