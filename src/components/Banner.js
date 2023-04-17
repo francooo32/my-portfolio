@@ -57,14 +57,14 @@ export const Banner = () => {
                 <h3>{`Dev&Art`} </h3>
             </TrackVisibility>
           </Col>
-          {/* <Col xs={12} md={6} xl={5}>
+        </Row>
+        <Row className="aligh-items-center">
+          <Col xs={12} md={12} xl={12}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
+            <div id="buttonDiv"></div>
+            <a href="#project"><h4>Descubre mi trabajo</h4></a>
             </TrackVisibility>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </section>

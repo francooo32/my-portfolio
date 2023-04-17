@@ -6,7 +6,8 @@ import projImg1 from "../assets/img/deniseFront1.png";
 import projImg2 from "../assets/img/deniseFront2.png";
 import projImg3 from "../assets/img/deniseFront3.png";
 import workVideo1 from "../assets/animations/animationsComponent/circuloProgramFinal2.mp4";
-import workVideo2 from "../assets/animations/animationsComponent/circuloProgramFinal2.mp4";
+import workVideo2 from "../assets/animations/animationsComponent/cuadradoBranding.mp4";
+import workVideo3 from "../assets/animations/animationsComponent/cuadradoAnimation.mp4";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,18 +16,19 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Identidad",
+      description: "Descubrimos la identidad de su trabajo",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Carousel",
+      description: "Una forma eficiente y rapida " + "\n" 
+                      + " de mostrar el trabajo",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Portfolio",
+      description: "El reflejo del trabajo de la artista listo para ser explorado",
       imgUrl: projImg3,
     }
   ];
@@ -34,57 +36,37 @@ export const Projects = () => {
   const colors = [
     {
       title: "#252525",
-      description: "Design & Development",
+      description: "Oscuro suave, para resaltar lo importante",
       color: '#252525',
     },
     {
       title: "#eef2ff",
-      description: "Design & Development",
+      description: "Blanco suave, para guiar la vista del visitante",
       color: '#eef2ff',
     },
     {
       title: "#2c2c54",
-      description: "Design & Development",
+      description: "Azul oscuro, para blendear y romper la monotonia de la" + 
+                      "dualidad entre blanco y negro",
       color: '#2c2c54',
     }
   ];
 
   const works = [
     {
-      title: "#252525",
+      title: "Coding development",
       description: "Design & Development",
       videoUrl: workVideo1,
-      videoUrl2: workVideo2,
     },
     {
-      title: "#eef2ff",
+      title: "Branding",
       description: "Design & Development",
-      videoUrl: workVideo1,
-      videoUrl2: workVideo2,
+      videoUrl: workVideo2,
     },
     {
-      title: "#2c2c54",
+      title: "Animations",
       description: "Design & Development",
-      videoUrl: workVideo1,
-      videoUrl2: workVideo2,
-    },
-    {
-      title: "#252525",
-      description: "Design & Development",
-      videoUrl: workVideo1,
-      videoUrl2: workVideo2,
-    },
-    {
-      title: "#eef2ff",
-      description: "Design & Development",
-      videoUrl: workVideo1,
-      videoUrl2: workVideo2,
-    },
-    {
-      title: "#2c2c54",
-      description: "Design & Development",
-      videoUrl: workVideo1,
-      videoUrl2: workVideo2,
+      videoUrl: workVideo3,
     },
   ];
 
@@ -113,6 +95,8 @@ export const Projects = () => {
                             )
                           })
                         }
+                        </Row>
+                        <Row>
                         <h3>Paleta de colores</h3>
                         {
                           colors.map((color, index) => {
@@ -124,6 +108,8 @@ export const Projects = () => {
                             )
                           })
                         }
+                        </Row>
+                        <Row>
                         <h3 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h3>
                         {
                           works.map((work, index) => {
