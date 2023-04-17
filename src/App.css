@@ -321,6 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h4:hover{
   color: #fff;
+  /* transition-delay: 2s; */
   /* box-shadow: 0 0 10px #324181,
               0 0 20px #324181,
               0 0 40px #324181,
@@ -357,23 +358,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 20%;
   text-align: center;
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Proxima Nova', sans-serif;
-  line-height: 1;
+  line-height: 2;
   display: block;
   position: fixed;
   bottom: 130px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   border: 4px solid #324181;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
 }
 .banner a:hover{
-  transition-delay: 1.5s;
+  color: #151515;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2.5;
   box-shadow: 0 0 10px #324181,
   0 0 20px #324181,
   0 0 40px #324181,
   0 0 80px #324181,
   0 0 160px #324181;
+}
+.banner a span{
+  position: relative;
+  z-index: 100;
 }
 .banner a::before{
   content: '';
@@ -678,8 +689,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project h1 {
 	font-family: 'Proxima Nova', sans-serif;
-  font-weight: lighter;
-  font-size: 60px;
+  font-weight: 300;
+  font-size: 6vw;
+  color: #111111;
+  /* -webkit-text-stroke: 0.03vw #1d1d1d; */
+  text-transform: uppercase;
+}
+.project h1::before {
+  content: attr(data-text);
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 12%;
+  color: #464780;
+  -webkit-text-stroke: 0vw #1d1d1d;
+  border-right: 2px solid #2e31ec;
+  overflow: hidden;
+  animation: animatetitle 6s linear infinite; 
+}
+@keyframes animatetitle
+{
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 70%
+  }
 }
 .project h2 {
 	font-size: 90px;
@@ -698,7 +737,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 14px auto 70px auto;
   text-align: center;
   width: 56%;
 }

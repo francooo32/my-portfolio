@@ -62,7 +62,7 @@ export const Banner = () => {
           <Col xs={12} md={12} xl={12}>
             <TrackVisibility>
             <div id="buttonDiv"></div>
-            <a href="#project"><h4>Descubre mi trabajo</h4></a>
+            <a href="#project"><span>Descubre mi trabajo</span></a>
             </TrackVisibility>
           </Col>
         </Row>

@@ -84,7 +84,7 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Row>
-                        <h1>Portfolio Web</h1>
+                        <h1 data-text="Portfolio Web">Portfolio Web</h1>
                         {
                           projects.map((project, index) => {
                             return (
