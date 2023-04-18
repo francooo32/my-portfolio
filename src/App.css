@@ -692,22 +692,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 300;
   font-size: 6vw;
   color: #111111;
+  margin-top: 10%;
   /* -webkit-text-stroke: 0.03vw #1d1d1d; */
   text-transform: uppercase;
 }
 .project h1::before {
   content: attr(data-text);
   white-space: nowrap;
-  position: absolute;
+  /* position: fixed; */
+  display: flex;
   top: 0;
   left: 0;
   width: 0;
-  height: 12%;
+  height: 50%;
   color: #464780;
   -webkit-text-stroke: 0vw #1d1d1d;
   border-right: 2px solid #2e31ec;
   overflow: hidden;
   animation: animatetitle 6s linear infinite; 
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
 }
 @keyframes animatetitle
 {
