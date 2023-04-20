@@ -7,7 +7,7 @@ export const ColorPallet = ({ title, description, color }) => {
         {/* <img src={imgUrl} /> */}
         <div className="proj-imgbx-circle-style" style={{background: color, borderRadius: '50%', 
                                     borderColor: 'black',
-                                    marginTop: '20px'}}> 
+                                    marginTop: '65px'}}> 
                                 </div>
         <div className="proj-txtx-colors">
           <h4>{title}</h4>

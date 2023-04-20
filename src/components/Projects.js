@@ -5,9 +5,9 @@ import { WorkCircle } from "./WorkCircle";
 import projImg1 from "../assets/img/deniseFront1.png";
 import projImg2 from "../assets/img/deniseFront2.png";
 import projImg3 from "../assets/img/deniseFront3.png";
-import workVideo1 from "../assets/animations/animationsComponent/circuloProgramFinal2.mp4";
-import workVideo2 from "../assets/animations/animationsComponent/cuadradoBranding.mp4";
-import workVideo3 from "../assets/animations/animationsComponent/cuadradoAnimation.mp4";
+import workImg1 from "../assets/img/IconoDiseñoProgram.png";
+import workImg2 from "../assets/img/IconoDiseñoBranding.png";
+import workImg3 from "../assets/img/IconoDiseñoAnimacion.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -54,19 +54,21 @@ export const Projects = () => {
 
   const works = [
     {
-      title: "Coding development",
-      description: "Design & Development",
-      videoUrl: workVideo1,
+      title: "Desarrollo de código",
+      description: "Utilizando tecnologia de última generacion, desarrollo páginas"
+      + " de amplio alcance.",
+      videoUrl: workImg1,
     },
     {
       title: "Branding",
-      description: "Design & Development",
-      videoUrl: workVideo2,
+      description: "Te ayudo a encontrar tu identidad a travez del diseño.",
+      videoUrl: workImg2,
     },
     {
-      title: "Animations",
-      description: "Design & Development",
-      videoUrl: workVideo3,
+      title: "Animaciones",
+      description: "Con Adobe After Effect creo sofisticadas animaciones que no solo"
+      + " cautivan la atencion de los clientes, sino que la mantienen competitiva en el mercado.",
+      videoUrl: workImg3,
     },
   ];
 
@@ -110,7 +112,7 @@ export const Projects = () => {
                         }
                         </Row>
                         <Row>
-                        <h3 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h3>
+                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
                         {
                           works.map((work, index) => {
                             return (
