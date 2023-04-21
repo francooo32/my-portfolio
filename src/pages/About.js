@@ -1,11 +1,11 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Projects } from "../components/Projects";
+import { AboutSection } from "../components/AboutSection";
 
 function About() {
   return (
     <div className="about">
-        <Projects />
+        <AboutSection />
     </div>
   );
 }

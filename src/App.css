@@ -1029,12 +1029,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .transitionAbout div{
-  animation: slide 2s ease;
+  animation: slide 5s ease-in-out;
+  transform: translateX(-1200px);
 }
 
 @keyframes slide {
   0%{transform: translateX(-1200px);}
-  100% {transform: rotate(-360deg);}
+  40%{transform: translateX(0px);}
+  60%{transform: translateX(0px);}
+  100% {transform: rotate(-360deg);
+        transform: translateX(-1200px);}
 }
 
 .transitionAbout div img{
@@ -1045,6 +1049,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @keyframes spin {
   100% {transform: rotate(-360deg);}
+}
+
+/************ AboutSection Css ************/
+
+.banner-about {
+  height: 100vh;
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #151515;
+  animation: animate 2s linear alternate;
+}
+
+.banner-about h1{
+  font-weight: 300;
+  font-size: 70px;
+  letter-spacing: 0.8px;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.banner-about h3{
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 /************ Contact Css ************/

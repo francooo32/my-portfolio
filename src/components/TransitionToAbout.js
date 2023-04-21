@@ -20,7 +20,7 @@ export const TransitionAbout = () => {
     let ticker = setInterval(() => {
       setTimeout(() => {
         navigation("/about");
-      }, 3000);
+      }, 4000);
     }, delta);
 
     return () => { clearInterval(ticker) };
