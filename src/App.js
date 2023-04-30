@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home"
 import About from "./pages/About"
 import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
 import { TransitionAbout } from "./components/TransitionToAbout";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+import { ProgramSection } from "./components/diapositivas/ProgramSection";
+import { BrandingSection } from "./components/diapositivas/BrandingSection";
+import { AnimatorSection } from "./components/diapositivas/AnimatorSection";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -19,13 +19,12 @@ function App() {
           <Route path="/" element={<Home /> } />
           <Route path="/transition" element={<TransitionAbout />} />
           <Route path="/about" element={<About />} />
+          <Route path="/program" element={<ProgramSection />} />
+          <Route path="/branding" element={<BrandingSection />} />
+          <Route path="/animator" element={<AnimatorSection />} />
           <Route path="*" element={`<h1>Page not found<h1/>`} />
         </Routes>
       </Router>
-      {/* <Banner /> */}
-      {/* <Skills /> */}
-      {/* <Projects /> */}
-      {/* <Contact /> */}
       <Footer />
     </div>
   );
