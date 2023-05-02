@@ -45,7 +45,7 @@ const styles = {
         transform: 'translate(-50%, -50%)',
         height: '100px',
         width: '100px',
-        // backgroundColor: 'blue',
+        background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
         borderRadius: '100px'
     },
     img: {
