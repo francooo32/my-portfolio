@@ -985,6 +985,55 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #divWheel h1{
   font-family: 'Proxima Nova', sans-serif;
   font-weight: 600;
+  font-size: 85px;
+}
+
+#divWheel p{
+  width: 75%;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.bubble{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  /* background: #00ffff; */
+  background: radial-gradient(#4894e73b, #111111);
+  animation: movebubble 7s ease-in-out infinite alternate;
+}
+.bubble:nth-child(1){
+  top: 20px;
+  left: 55px;
+  border-radius: 150px;
+  animation-direction: alternate-reverse;
+}
+.bubble:nth-child(2){
+  top: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+}
+.bubble:nth-child(3){
+  border-radius: 150px;
+  width: 70px;
+  height: 70px;
+  left: 110px;
+  animation-delay: -3.5s;
+}
+.bubble:nth-child(4){
+  border-radius: 150px;
+  width: 50px;
+  height: 50px;
+  left: 60px;
+}
+
+@keyframes movebubble{
+  0%{
+    transform: translate(100px);
+  }
 }
 
 /************ TransitionAbout Css ************/

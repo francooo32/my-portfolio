@@ -6,6 +6,9 @@ import imgAdaptabilidad from "../../assets/img/IconosWheel/IconoAdaptabilidad.pn
 import imgAnimaciones from "../../assets/img/IconosWheel/IconoAnimaciones.png";
 import imgPensar from "../../assets/img/IconosWheel/IconoPensar.png";
 import imgDinero from "../../assets/img/IconosWheel/IconoDinero.png";
+import imgComunicacion from "../../assets/img/IconosWheel/IconoComunicacion.png";
+import imgTransmitir from "../../assets/img/IconosWheel/IconoTransmitir.png";
+import imgAnalizar from "../../assets/img/IconosWheel/IconoAnalizar.png";
 
 export class Wheel extends Component {
 
@@ -34,13 +37,13 @@ export class Wheel extends Component {
         var buttonsChoice = [
             {
                 index: 0,
-                imagen: "",
-                alt: ""
+                imagen: imgAnalizar,
+                alt: "imgAnalizar"
             },
             {
                 index: 1,
-                imagen: "",
-                alt: ""
+                imagen: imgTransmitir,
+                alt: "imgTransmitir"
             },
             {
                 index: 2,
@@ -69,8 +72,8 @@ export class Wheel extends Component {
             },
             {
                 index: 7,
-                imagen: "",
-                alt: ""
+                imagen: imgComunicacion,
+                alt: "imgComunicacion"
             }
         ]
 
@@ -116,6 +119,12 @@ export class Wheel extends Component {
                 
                 <div onWheel={this.handle_scroll} ref={ref_id => this.wheel = ref_id} style={styles.wheel}>
                     {this.state.cards}
+                    <div>
+                        <div className="bubble"></div>
+                        <div className="bubble"></div>
+                        <div className="bubble"></div>
+                        <div className="bubble"></div>
+                    </div>
                 </div>
             </>
         )
@@ -129,11 +138,19 @@ const styles = {
         top: '50%',
         left: '50%',
         // marginLeft: '55%',
-        transform: 'translate(160%, -240%)',
+        background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
+        transform: 'translate(80%, -240%)',
         height: '300px',
         width: '300px',
         borderRadius: '150px'
     }
+
+    // bubble: {
+    //     position: 'relative',
+    //     height: '100px',
+    //     width: '100px',
+    //     background: '#00ffff'
+    // }
 }
 
 export default Wheel
