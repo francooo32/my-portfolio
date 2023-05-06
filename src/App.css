@@ -1000,7 +1000,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   height: 100px;
   width: 100px;
-  /* background: #00ffff; */
   background: radial-gradient(#4894e73b, #111111);
   animation: movebubble 7s ease-in-out infinite alternate;
 }
@@ -1027,6 +1026,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 150px;
   width: 50px;
   height: 50px;
+  top: 15px;
   left: 60px;
 }
 
