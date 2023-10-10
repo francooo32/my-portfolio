@@ -68,6 +68,20 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
+.wassap{
+  z-index: 1;
+  position: fixed;
+  width: 4%;
+  bottom: 5%;
+  right: 3%;
+}
+
+.wassap a img{
+  width: 60%;
+  background-color: #4b5ba8;
+  border-radius: 100%;
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -359,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 0s;
 }
 .banner a:hover{
-  color: #151515;
+  color: #9ce5e8;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 2.5;

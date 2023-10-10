@@ -111,6 +111,11 @@ function WheelDivs() {
         return(
             <div id="divWheel"> 
                 <h1>¿Por qué trabajar conmigo?</h1>
+                <p class="animate__animated animate__flipInX">
+                    No me enfoco en crear una página, mi objetivo es generar una arquitectura, solución, 
+                    que te permita alcanzar tus objetivos de corto y largo plazo, te de acceso a expandir
+                    el proyecto sin limites y refleje el presente y futuro de tu marca. 
+                </p>
             </div>
         )
     }

@@ -46,17 +46,17 @@ export const NavBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="/#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="/transition" className={activeLink === 'transition' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('transition')}>About</Nav.Link>
-              <Nav.Link href="/#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
+              {/* <Nav.Link href="/#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/franco-chiaravalloti" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Contactame UwU</span></button>
-              </HashLink>
+              {/* <HashLink to='#connect'> */}
+              <a href="https://wa.me/541162767256" target="_blank"><button className="vvd"><span>Trabajemos juntos</span></button></a>
+              {/* </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Cursor } from 'react-bootstrap-icons';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 function get_my_coords(theta, radius){
@@ -46,7 +47,8 @@ const styles = {
         height: '100px',
         width: '100px',
         background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
-        borderRadius: '100px'
+        borderRadius: '100px',
+        cursor: 'pointer'
     },
     img: {
         width: '100%',

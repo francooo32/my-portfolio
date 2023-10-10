@@ -63,7 +63,7 @@ export class Wheel extends Component {
             {
                 index: 5,
                 imagen: imgAnimaciones,
-                alt: ""
+                alt: "imgAnimaciones"
             },
             {
                 index: 6,
@@ -117,7 +117,8 @@ export class Wheel extends Component {
             <>
                 <WheelDivs />
                 
-                <div onWheel={this.handle_scroll} ref={ref_id => this.wheel = ref_id} style={styles.wheel}>
+                {/* <div onWheel={this.handle_scroll} ref={ref_id => this.wheel = ref_id} style={styles.wheel}> */}
+                <div ref={ref_id => this.wheel = ref_id} style={styles.wheel}>
                     {this.state.cards}
                     <div>
                         <div className="bubble"></div>
@@ -135,8 +136,8 @@ export class Wheel extends Component {
 const styles = {
     wheel: {
         position: 'absolute',
-        top: '50%',
-        left: '50%',
+        top: '36%',
+        left: '60%',
         // marginLeft: '55%',
         background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
         transform: 'translate(80%, -240%)',
