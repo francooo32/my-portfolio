@@ -1,4 +1,5 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
+import { VITTORI_PROJECTS, VITTORI_COLORS, VITTORI_WORKS } from "./ProjectsConst/ProjectConsts";
 import { ProjectCard } from "./ProjectCard";
 import { ColorPallet } from "./ColorPallet";
 import { WorkCircle } from "./WorkCircle";
@@ -9,8 +10,9 @@ import workImg1 from "../assets/img/IconoDiseñoProgram.png";
 import workImg2 from "../assets/img/IconoDiseñoBranding.png";
 import workImg3 from "../assets/img/IconoDiseñoAnimacion.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import 'animate.css';
+
 
 export const Projects = () => {
 
@@ -41,12 +43,12 @@ export const Projects = () => {
     },
     {
       title: "#eef2ff",
-      description: "Blanco suave, para guiar la vista del visitante",
+      description: "Blanco suave, para acompañar la vista del visitante",
       color: '#eef2ff',
     },
     {
       title: "#2c2c54",
-      description: "Azul oscuro, para blendear y romper la monotonia de la" + 
+      description: "Azul oscuro, para blendear y romper la monotonia de" + 
                       "dualidad entre blanco y negro",
       color: '#2c2c54',
     }
@@ -126,6 +128,52 @@ export const Projects = () => {
                       </Row>
                   </Tab.Content>
                 </Tab.Container>
+
+                <Tab.Container id="projects-tabs">
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Row>
+                        <h1 data-text="Concesionaria">Concesionaria</h1>
+                        {
+                          VITTORI_PROJECTS.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                        </Row>
+                        <Row>
+                        <h3>Paleta de colores</h3>
+                        {
+                          VITTORI_COLORS.map((color, index) => {
+                            return (
+                              <ColorPallet
+                                key={index}
+                                {...color}
+                                />
+                            )
+                          })
+                        }
+                        </Row>
+                        <Row>
+                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
+                        {
+                          VITTORI_WORKS.map((work, index) => {
+                            return (
+                              <WorkCircle
+                                key={index}
+                                {...work}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                  </Tab.Content>
+                </Tab.Container>
+
+
               </div>}
             </TrackVisibility>
           </Col>

@@ -1,18 +1,17 @@
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "../components/NavBar";
 import { Banner } from "../components/Banner";
-import { TransitionAbout } from "../components/TransitionToAbout";
 import { Projects } from "../components/Projects";
-import { Contact } from "../components/Contact";
-import { Footer } from "../components/Footer";
+import { WorkProcess } from "../components/WorkProcess";
+import { BotonDescubre } from "../components/diapositivas/BotonDescubre";
 
 function Home() {
   return (
       <>
         <Banner />
+        <WorkProcess />
         <Projects />
+        <BotonDescubre />
         {/* <Footer /> */}
       </>
   );
