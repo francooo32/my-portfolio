@@ -18,7 +18,7 @@ export const BrandingSection = () => {
   useEffect(() => {
     let ticker = setInterval(() => {
       setTimeout(() => {
-        navigation("/animator");
+        navigation("/contact");
       }, 4000);
     }, delta);
 

@@ -68,20 +68,6 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-.wassap{
-  z-index: 1;
-  position: fixed;
-  width: 4%;
-  bottom: 5%;
-  right: 3%;
-}
-
-.wassap a img{
-  width: 60%;
-  background-color: #4b5ba8;
-  border-radius: 100%;
-}
-
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -1224,7 +1210,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  margin-top: 6%;
+  background: linear-gradient(90.21deg, #000000 -5.91%, #251b4e 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
