@@ -1,6 +1,7 @@
 import React from 'react'
 import { Cursor } from 'react-bootstrap-icons';
 import { useNavigate, useLocation } from 'react-router-dom';
+import "./Wheel.css"
 
 function get_my_coords(theta, radius){
     return{
@@ -30,7 +31,7 @@ function WheelCard(props) {
     return(
         <div onClick={handle_click} style={{...styles.card, left: `${props.center.x + new_coords.x}px`, 
                         top: `${props.center.y - new_coords.y}px`}}>
-        <img src={props.pic} style={styles.img}></img>
+        <img id="wheelImg" src={props.pic} style={styles.img}></img>
             
         </div>
     )
@@ -48,12 +49,8 @@ const styles = {
         width: '100px',
         background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
         borderRadius: '100px',
-        cursor: 'pointer'
+        cursor: 'pointer',
     },
-    img: {
-        width: '100%',
-        height: 'auto'
-    }
 }
 
 export default React.memo(WheelCard); 

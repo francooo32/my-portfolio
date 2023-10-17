@@ -137,7 +137,7 @@ const styles = {
     wheel: {
         position: 'absolute',
         top: '36%',
-        left: '60%',
+        left: '56%',
         // marginLeft: '55%',
         background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
         transform: 'translate(80%, -240%)',
