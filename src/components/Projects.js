@@ -85,51 +85,8 @@ export const Projects = () => {
                 <h2>Proyectos</h2>
                 <p>Estos son algunos de mis trabajos recientes, diseñados y desarrollados principalmente con ReactJs, 
                   JavaScript, Css para el front end y Java, SpringBoot, Spring security, Sql para el back end.</p>
-                <Tab.Container id="projects-tabs">
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                      <Row>
-                        <h1 data-text="Portfolio Web">Portfolio Web</h1>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                        </Row>
-                        <Row>
-                        <h3>Paleta de colores</h3>
-                        {
-                          colors.map((color, index) => {
-                            return (
-                              <ColorPallet
-                                key={index}
-                                {...color}
-                                />
-                            )
-                          })
-                        }
-                        </Row>
-                        <Row>
-                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
-                        {
-                          works.map((work, index) => {
-                            return (
-                              <WorkCircle
-                                key={index}
-                                {...work}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                  </Tab.Content>
-                </Tab.Container>
 
-                <Tab.Container id="projects-tabs">
+                  <Tab.Container id="projects-tabs">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Row>
                         <h1 data-text="Concesionaria">Concesionaria</h1>
@@ -173,6 +130,49 @@ export const Projects = () => {
                   </Tab.Content>
                 </Tab.Container>
 
+                <Tab.Container id="projects-tabs">
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Row>
+                        <h1 data-text="Portfolio Web">Portfolio Web</h1>
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                        </Row>
+                        <Row>
+                        <h3>Paleta de colores</h3>
+                        {
+                          colors.map((color, index) => {
+                            return (
+                              <ColorPallet
+                                key={index}
+                                {...color}
+                                />
+                            )
+                          })
+                        }
+                        </Row>
+                        <Row>
+                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
+                        {
+                          works.map((work, index) => {
+                            return (
+                              <WorkCircle
+                                key={index}
+                                {...work}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                  </Tab.Content>
+                </Tab.Container>
 
               </div>}
             </TrackVisibility>

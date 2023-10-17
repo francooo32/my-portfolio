@@ -1,0 +1,9 @@
+#wheelImg {
+    width: 100%;
+    height: auto;
+    transition: all .2s ease-in-out;
+}
+
+#wheelImg:hover {
+    transform: scale(1.1);
+}

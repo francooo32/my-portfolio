@@ -82,6 +82,16 @@ p.success {
 p.danger {
 	color: red;
 }
+
+/************ Wassap Css ************/
+.wassap{
+  z-index: 1;
+  position: fixed;
+  width: 6%;
+  bottom: 5%;
+  right: 3%;
+}
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -331,7 +341,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #buttonDiv {
   display: flex;
   justify-content: center;
-  height: 330px;
+  height: 230px;
 }
 .banner p {
   color: #B8B8B8;
@@ -762,7 +772,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(64deg, #7487f1 -27.91%, #28214d 92.58%);
+  /* background: linear-gradient(64deg, #7487f1 -27.91%, #28214d 92.58%); */
+  background: linear-gradient(64deg, #000000 -20.91%, #06021a 92.58%);
   /* background: linear-gradient(64deg, #7487f1 10.09%, #28214d 84.58%); */
   /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   opacity: 0.85;
@@ -847,6 +858,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx-animated img{
   width: 18%;
   animation: scalecircle 3s linear infinite;
+  opacity: 0.5;
   /* border-radius: 40px; */
   /* -webkit-box-reflect: right -29px linear-gradient(transparent, #0002); */
 }
@@ -1389,7 +1401,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   border-radius: 18px;
 }
 .footer img {
-  width: 15%;
+  width: 5%;
 }
 .footer p {
   font-weight: 400;
