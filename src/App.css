@@ -472,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width:1563px) and (min-width:961px){
 
   .banner {
-    height: 200vh;
+    height: 95vh;
     margin-top: 0;
     padding: 100px 0 100px 0;
     background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
@@ -491,73 +491,73 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     0%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 0) 2.09%,
       rgba(15, 15, 15, 0) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     12%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 3%) 2.09%,
       rgba(15, 15, 15, 1.5%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     25%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 5%) 2.09%,
       rgba(15, 15, 15, 3%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     36%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 8%) 2.09%,
       rgba(15, 15, 15, 4.5%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     50%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 10%) 2.09%,
       rgba(15, 15, 15, 6%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     66%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 14%) 2.09%,
       rgba(15, 15, 15, 9%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     75%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 17%) 2.09%,
       rgba(15, 15, 15, 11%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}  
     86%{ background: radial-gradient(circle at 62%, rgba(55, 89, 201, 19.5%) 2.09%,
       rgba(15, 15, 15, 12.5%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}    
     100%{background: radial-gradient(circle at 62%, rgb(55 89 201 / 22%) 2.09%,
       rgb(15 15 15 / 14%) 40.58%), 
       url('./assets/img/logoLetra.png');
-      background-size: 90% 60%;
+      background-size: 90% 90%;
       background-position-x: 80px;
-      background-position-y: -90px;
+      background-position-y: 110px;
       background-color: #101010;
       background-repeat: no-repeat;}
     } 
@@ -565,7 +565,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     #buttonDiv {
       display: flex;
       justify-content: center;
-      height: 280px;
+      height: 230px;
     }
 
     .banner h1 {
