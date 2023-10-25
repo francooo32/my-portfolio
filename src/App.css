@@ -1111,6 +1111,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+@media (max-width:1563px) and (min-width:961px){
+  #divWheel h1{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+  }
+
+  #divWheel p{
+    width: 75%;
+    margin-top: 5%;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
 /************ TransitionAbout Css ************/
 .transitionAbout {
   height: 100vh;
