@@ -18,7 +18,7 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1 class="animate__animated animate__fadeInLeft">Transmito la esencia</h1>
                 <p class="animate__animated animate__flipInX">
-                    Se que la identidad de una marca es muy importante y prioritario, por eso, una de mis
+                    Sé que la identidad de una marca es muy importante y prioritario, por eso, una de mis
                     tareas principales es crear una web que transmita la esencia y los ideales de mis clientes,
                     esto lo logro utilizando estrategias de comunicación e identidad visual orientadas al 
                     e-marketing moderno.
@@ -32,8 +32,8 @@ function WheelDivs() {
                 <h1 class="animate__animated animate__fadeInLeft">Pienso para tí</h1>
                 <p class="animate__animated animate__flipInX">
                     Adopto una estrategia de diseño y desarrollo orientado exclusivamente en las necesidades
-                    particulares de cada cliente, por medio del intercambio activo, te aconsejo y asisto 
-                    en la toma de decisiones orientadas al objetivo de la web.
+                    particulares de cada cliente además, por medio del intercambio activo, te aconsejo y asisto 
+                    en la toma de decisiones orientadas al objetivo de tu app.
                 </p>
             </div>
         )
@@ -44,7 +44,7 @@ function WheelDivs() {
                 <h1 class="animate__animated animate__fadeInLeft">Adaptabilidad de desarrollo</h1>
                 <p class="animate__animated animate__flipInX">
                     Me mantengo actualizado, aprendiendo y dominando todas las tecnologías nuevas
-                    lanzadas al mercado para mantener una web moderna y atractiva.
+                    lanzadas al mercado para mantener una aplicación moderna y atractiva.
                 </p>
             </div>
         )
@@ -54,8 +54,8 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1 class="animate__animated animate__fadeInLeft">Programación dinámica</h1>
                 <p class="animate__animated animate__flipInX">
-                    Utilizando multiples lenguajes y frameworks, creo código estructurado de alto rendimiento
-                    facil de mantener orientado a la sustentabilidad a largo plazo.
+                    Utilizando múltiples lenguajes y frameworks, creo código estructurado de alto rendimiento
+                    fácil de mantener orientado a la sustentabilidad a largo plazo.
                 </p>
             </div>
         )
@@ -65,8 +65,8 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1 class="animate__animated animate__fadeInLeft">Animaciones modernas</h1>
                 <p class="animate__animated animate__flipInX">
-                    Creo páginas web interactivas que cuentan con la ultima tecnologia en animación web,
-                    asi como también, diseño nuevas utilizando herramientas como Adobe After Effects entre
+                    Creo páginas web y aplicaciones interactivas que cuentan con la ultima tecnología en animación web,
+                    asi como también, desarrollo diseños originales utilizando herramientas como Adobe After Effects entre
                     otras.
                 </p>
             </div>
@@ -100,9 +100,9 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1 class="animate__animated animate__fadeInLeft">Analizo continuamente</h1>
                 <p class="animate__animated animate__flipInX">
-                    Estoy continuamente analizando tanto codigo como diseño para encontrar cualquier chance
+                    Analizo continuamente el código y diseño para encontrar cualquier chance
                     de mejora que se pueda ofrecer a mis clientes, ya sea tecnológica o de comunicación,
-                    mantengo la web evolucionando y adaptandose a las necesidades de los exigentes usuarios. 
+                    mantengo la aplicación evolucionando y adaptandose a las necesidades de los exigentes usuarios. 
                 </p>
             </div>
         )
@@ -112,9 +112,9 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1>¿Por qué trabajar conmigo?</h1>
                 <p class="animate__animated animate__flipInX">
-                    No me enfoco en crear una página, mi objetivo es generar una arquitectura, solución, 
+                    No me enfoco solo en crear una página, mi objetivo es generar una arquitectura, solución, 
                     que te permita alcanzar tus objetivos de corto y largo plazo, te de acceso a expandir
-                    el proyecto sin limites y refleje el presente y futuro de tu marca. 
+                    el proyecto sin límites y refleje tanto el presente como futuro de tu marca. 
                 </p>
             </div>
         )

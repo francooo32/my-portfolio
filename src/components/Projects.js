@@ -13,13 +13,12 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
-
 export const Projects = () => {
 
   const projects = [
     {
       title: "Identidad",
-      description: "Descubrimos la identidad de su trabajo",
+      description: "Descubrí la identidad de su trabajo",
       imgUrl: projImg1,
     },
     {

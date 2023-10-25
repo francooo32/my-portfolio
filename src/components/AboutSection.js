@@ -54,19 +54,26 @@ export const AboutSection = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
                <h1>{`Quien soy?`} </h1>
-                <h3>{`Con mas de 6 años de experiencia me he dedicado al desarrollo de 
-                aplicaciones y juegos, asi como al diseño artistico orientado a esto ultimo, 
-                durante este periodo e trabajado para importantes entidades privadas en 
-                relacion de dependencia tales como Peugeot Argentina, banco ICBB y ,de forma 
-                freelance, para Amerise Automobili, Narwal Studios.
-                Me permitio no solo mejorar mis habilidades como desarrollador sino tambien
-                estar en contacto con las tecnologias de vanguardia, codearme con profesionales
-                de punta y llevar mis skills `} </h3>
+                <h3>{`Hola! Soy Franco, tengo 30 años y resido en Buenos Aires, Argentina. \n`}
+                    <br/>
+                    <br/>
+                {`La curiosidad y el afán por resolver desafios me han llevado a muy temprana edad a 
+                  toparme con la programación. Asi fue como a mis 13 años empece a prueba y error a 
+                  desarrollar juegos en c++ con sfml. `} 
+                    <br/>
+                    <br/>
+                {`A los 24 años decidi comenzar la carrera de Ingenieria en Informática, 
+                  desde ese entonces tuve la posibilidad de trabajar en relación de dependencia para 
+                  importantes entidades tales como Atos Arg, Peugeot S.A, IT Patagonia, Banco ICBC; y de manera 
+                  freelance para Vitoria Automobili, Narwal Studios y el Gobierno de la Ciudad, lo cual me ha llevado a mejorar 
+                  notablemente mis habilidades y estar en constante contacto con tecnologias de vanguardia. `} 
+                  </h3>
+
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img id="aboutImg" src={headerImg} alt="Header Img"/>
             </TrackVisibility>
           </Col>
         </Row>
