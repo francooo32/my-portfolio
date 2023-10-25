@@ -1112,7 +1112,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width:1563px) and (min-width:961px){
+
+  .workprocess-about {
+    height: 100vh;
+    margin-top: 0;
+    padding: 150px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111111;
+    /* animation: animate 2s linear alternate; */
+  }
+
   #divWheel h1{
+    margin-top: 10%;
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 600;
     font-size: 45px;
