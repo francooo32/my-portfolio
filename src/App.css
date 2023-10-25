@@ -707,6 +707,97 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: #151515;
 }
+
+.project .projDiv{
+  margin-bottom: 5%;
+}
+
+.project .projDiv a {
+  /* height: 5%; */
+  width: 30%;
+  place-content: center;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: 'Proxima Nova', sans-serif;
+  line-height: 2;
+  display: flex;
+  /* position: relative; */
+  bottom: 130px;
+  text-decoration: none;
+  color: #fff;
+  border: 4px solid #324181;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.project .projDiv a:hover{
+  color: #9ce5e8;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  line-height: 2.5;
+  box-shadow: 0 0 10px #324181,
+  0 0 20px #324181,
+  0 0 40px #324181,
+  0 0 80px #324181,
+  0 0 160px #324181;
+}
+
+.project .projDiv a span{
+  position: relative;
+  z-index: 100;
+}
+
+.project .projDiv a::before{
+  /* content: ''; */
+  /* position: absolute; */
+  left: -20px;
+  top:50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #324181;
+  box-shadow: 5px -8px 0 #324181,
+              5px 8px 0 #324181;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
+}
+
+.project .projDiv a:hover::before{
+  color:#151515;
+  width: 60%;
+  height: 100%;
+  left: -2px;
+  box-shadow: 5px 0 0 #324181,
+              5px 0 0 #324181;
+  transition-delay: 0s, 0s.5, 1s, 1s;
+}
+
+.project .projDiv a::after{
+  /* content: ''; */
+  /* position: absolute; */
+  right: -20px;
+  top:50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #324181;
+  box-shadow: -5px -8px 0 #324181,
+              -5px 8px 0 #324181;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
+}
+
+.project .projDiv a:hover::after{
+  color:#151515;
+  width: 60%;
+  height: 100%;
+  right: -2px;
+  box-shadow: -5px 0 0 #324181,
+              -5px 0 0 #324181;
+  transition-delay: 0s, 0s.5, 1s, 1s;
+}
+
 .project h1 {
 	font-family: 'Proxima Nova', sans-serif;
   font-weight: 300;
