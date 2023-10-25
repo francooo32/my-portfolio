@@ -10,6 +10,8 @@ import imgComunicacion from "../../assets/img/IconosWheel/IconoComunicacion.png"
 import imgTransmitir from "../../assets/img/IconosWheel/IconoTransmitir.png";
 import imgAnalizar from "../../assets/img/IconosWheel/IconoAnalizar.png";
 
+let styles = '';
+
 export class Wheel extends Component {
 
     
@@ -21,12 +23,9 @@ export class Wheel extends Component {
             theta: 0.0,
             indexDiv: 0,
         }
-        
         this.temp_theta = 0.0
         this.anim_id = null;
     }
-
-    
 
     componentDidMount() {
         let center_of_wheel = {
@@ -133,25 +132,35 @@ export class Wheel extends Component {
 
 }
 
-const styles = {
-    wheel: {
-        position: 'absolute',
-        top: '36%',
-        left: '56%',
-        // marginLeft: '55%',
-        background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
-        transform: 'translate(80%, -240%)',
-        height: '300px',
-        width: '300px',
-        borderRadius: '150px'
+if(window.innerWidth <= 1563 && window.innerWidth >= 961){
+    styles = {
+        wheel: {
+            position: 'absolute',
+            top: '33%',
+            left: '46%',
+            // marginLeft: '55%',
+            background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
+            transform: 'translate(80%, -240%)',
+            height: '300px',
+            width: '300px',
+            borderRadius: '150px'
+        }
     }
-
-    // bubble: {
-    //     position: 'relative',
-    //     height: '100px',
-    //     width: '100px',
-    //     background: '#00ffff'
-    // }
+}else{
+    styles = {
+        wheel: {
+            position: 'absolute',
+            top: '36%',
+            left: '56%',
+            // marginLeft: '55%',
+            background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
+            transform: 'translate(80%, -240%)',
+            height: '300px',
+            width: '300px',
+            borderRadius: '150px'
+        }
+    }
 }
+    
 
 export default Wheel
