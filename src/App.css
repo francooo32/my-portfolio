@@ -708,11 +708,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #151515;
 }
 
-.project div{
+.project .projDiv{
   margin-bottom: 5%;
 }
 
-.project div a {
+.project .projDiv a {
   /* height: 5%; */
   width: 30%;
   place-content: center;
@@ -731,7 +731,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 0s;
 }
 
-.project div a:hover{
+.project .projDiv a:hover{
   color: #9ce5e8;
   font-weight: 600;
   /* text-transform: uppercase; */
@@ -743,12 +743,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   0 0 160px #324181;
 }
 
-.project div a span{
+.project .projDiv a span{
   position: relative;
   z-index: 100;
 }
 
-.project div a::before{
+.project .projDiv a::before{
   /* content: ''; */
   /* position: absolute; */
   left: -20px;
@@ -763,7 +763,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 1s, 0.5s, 0s, 0s;
 }
 
-.project div a:hover::before{
+.project .projDiv a:hover::before{
   color:#151515;
   width: 60%;
   height: 100%;
@@ -773,7 +773,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 0s, 0s.5, 1s, 1s;
 }
 
-.project div a::after{
+.project .projDiv a::after{
   /* content: ''; */
   /* position: absolute; */
   right: -20px;
@@ -788,7 +788,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 1s, 0.5s, 0s, 0s;
 }
 
-.project div a:hover::after{
+.project .projDiv a:hover::after{
   color:#151515;
   width: 60%;
   height: 100%;

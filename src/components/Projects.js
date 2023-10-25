@@ -90,7 +90,7 @@ export const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Row>
                         <h1 data-text="Concesionaria">Concesionaria</h1>
-                        <div>
+                        <div className="projDiv">
                           <a href="https://vittoria-automobili.netlify.app/" target="_blank"><span>Visitar</span></a>
                         </div>
                         {
