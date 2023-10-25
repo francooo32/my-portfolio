@@ -19,7 +19,7 @@ export const ProgramSection = () => {
     let ticker = setInterval(() => {
       setTimeout(() => {
         navigation("/branding");
-      }, 4000);
+      }, 7000);
     }, delta);
 
     return () => { clearInterval(ticker) };

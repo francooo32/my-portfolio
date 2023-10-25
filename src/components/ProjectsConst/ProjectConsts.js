@@ -46,18 +46,18 @@ export const VITTORI_COLORS = [
 export const VITTORI_WORKS = [
     {
       title: "Desarrollo de código",
-      description: "Creamos una base para almacenar los vehículos y una web única que busca separarse"
-      + " de las webs genéricas con templates; el cliente hoy disfruta de su propia arquitectura escalable.",
+      description: "Cree una base para almacenar los vehículos y una web única que busca separarse"
+      + " del resto existente en el mercado; el cliente hoy disfruta de su propia arquitectura escalable.",
       videoUrl: workImg1,
     },
     {
       title: "Branding",
-      description: "La UX/UI del equipo se encargó de encontrar los diseños mas eficientes y visualmente atractivos para destacar la página.",
+      description: "Trabaje en equipo con una UX/UI quien se encargó de encontrar los diseños mas eficientes y visualmente atractivos para destacar la página.",
       videoUrl: workImg2,
     },
     {
       title: "Complejidad escalable",
-      description: "Desarrollamos arquitectura, no simplemente webs, lo que permite que crezaca de forma infinita",
+      description: "Desarrollo arquitectura, no simplemente webs, lo que permite que crezca de forma infinita",
       videoUrl: workImg3,
     },
   ];
