@@ -112,7 +112,7 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1>¿Por qué trabajar conmigo?</h1>
                 <p class="animate__animated animate__flipInX">
-                Mi amplia experiencia, adaptabilidad, profesionalismo, años de estudio y espiritu autodidacta me respaldan. 
+                Mi amplia experiencia, adaptabilidad, profesionalismo y espiritu autodidacta me respaldan. 
                 <br/>
                 <br/>
                 No me enfoco solo en crear una página, mi objetivo es
