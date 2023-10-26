@@ -112,9 +112,14 @@ function WheelDivs() {
             <div id="divWheel"> 
                 <h1>¿Por qué trabajar conmigo?</h1>
                 <p class="animate__animated animate__flipInX">
-                    No me enfoco solo en crear una página, mi objetivo es generar una arquitectura, solución, 
-                    que te permita alcanzar tus objetivos de corto y largo plazo, te de acceso a expandir
-                    el proyecto sin límites y refleje tanto el presente como futuro de tu marca. 
+                Mi amplia experiencia, adaptabilidad, profesionalismo, años de estudio y espiritu autodidacta me respaldan. 
+                <br/>
+                <br/>
+                No me enfoco solo en crear una página, mi objetivo es
+                brindar soluciones construyendo una arquitectura de código que te permita escalar a futuro y expandir tu proyecto. 
+                <br/>
+                <br/>
+                Te acompaño en el proceso creativo, desarrollo y branding de tu marca para sacar juntos el máximo potencial. 
                 </p>
             </div>
         )

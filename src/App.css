@@ -1149,16 +1149,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Wheel Css ************/
 
 #divWheel h1{
+  margin-top: 10%;
   font-family: 'Proxima Nova', sans-serif;
   font-weight: 600;
-  font-size: 85px;
+  font-size: 60px;
 }
 
 #divWheel p{
   width: 75%;
   font-family: 'Proxima Nova', sans-serif;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
