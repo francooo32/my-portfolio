@@ -146,21 +146,28 @@ if(window.innerWidth <= 1563 && window.innerWidth >= 961){
             borderRadius: '150px'
         }
     }
-}else{
-    styles = {
-        wheel: {
-            position: 'absolute',
-            top: '36%',
-            left: '56%',
-            // marginLeft: '55%',
-            background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
-            transform: 'translate(80%, -240%)',
-            height: '300px',
-            width: '300px',
-            borderRadius: '150px'
+    }else if(window.innerWidth <= 960){
+        styles = {
+            wheel: {
+                display: 'none'
+            }
         }
     }
-}
+    else{
+        styles = {
+            wheel: {
+                position: 'absolute',
+                top: '36%',
+                left: '56%',
+                // marginLeft: '55%',
+                background: 'radial-gradient(rgb(18 114 219 / 20%), rgb(7 7 7 / 62%))',
+                transform: 'translate(80%, -240%)',
+                height: '300px',
+                width: '300px',
+                borderRadius: '150px'
+            }
+        }
+    }
     
 
 export default Wheel
