@@ -1105,6 +1105,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       width: 100%
     }
   }
+
+  .project h2 {
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+
+  .project p {
+    color: #B8B8B8;
+    font-size: 12px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 45px auto;
+    text-align: center;
+    width: 80%;
+  }
+
   .proj-txtx-colors h4 {
     font-size: 14px;
     font-weight: 500;
@@ -1118,6 +1138,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 9px;
     letter-spacing: 0.8px;
   }
+
+  .project .projDiv {
+    margin-bottom: 15%;
+  }
+
+  .project .projDiv a {
+    /* height: 5%; */
+    width: 30%;
+    place-content: center;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-family: 'Proxima Nova', sans-serif;
+    line-height: 2;
+    display: flex;
+    /* position: relative; */
+    bottom: 130px;
+    text-decoration: none;
+    color: #fff;
+    border: 4px solid #324181;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
 }
 
 /************ WorkProcess Css ************/
@@ -1144,6 +1187,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   letter-spacing: 1.5px;
   font-family: 'Proxima Nova', sans-serif;
+}
+
+@media (max-width: 960px){
+  .workprocess-about {
+    height: 80vh;
+    margin-top: 0;
+    padding: 150px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111111;
+    /* animation: animate 2s linear alternate; */
+}
 }
 
 /************ Wheel Css ************/
@@ -1231,6 +1287,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 20px;
     line-height: 1.6;
   }
+}
+
+@media (max-width:960px){
+  #divWheel h1{
+    /* margin-top: 10%; */
+    text-align: -webkit-center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  #divWheel p {
+    width: 100%;
+    margin-top: 10%;
+    text-align: -webkit-center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 1.6;
+}
 }
 
 /************ TransitionAbout Css ************/
@@ -1364,6 +1440,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+@media (max-width:960px){
+  .banner-about {
+    height: 100vh;
+    margin-top: 0;
+    padding: 120px 0 25px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151515;
+    animation: animate 2s linear alternate;
+  }
+
+  .banner-about h1 {
+    text-align-last: center;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+
+  .banner-about h3 {
+    text-align-last: center;
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+
+  #aboutImg {
+    margin-top: 5%;
+    width: 70%;
+  }
+}
+
 /************ Boton Descubre Seccion ************/
 .buttonDescubre {
   height: 30vh;
@@ -1465,6 +1575,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition-delay: 0s, 0s.5, 1s, 1s;
 }
 
+@media (max-width: 960px){
+  .buttonDescubre {
+    height: 25vh;
+    padding: 126px 0 0 0;
+    background: #111111;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.buttonDescubre a {
+  /* height: 5%; */
+  width: 64%;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: 'Proxima Nova', sans-serif;
+  line-height: 2;
+  display: block;
+  position: relative;
+  bottom: 130px;
+  text-decoration: none;
+  color: #fff;
+  border: 4px solid #324181;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
+  }
+}
 
 /************ Contact Css ************/
 .contact {
