@@ -14,7 +14,6 @@ let styles = '';
 
 export class Wheel extends Component {
 
-    
     constructor(props) {
         super(props)
         this.state = {
@@ -115,7 +114,6 @@ export class Wheel extends Component {
         return (
             <>
                 <WheelDivs />
-                
                 {/* <div onWheel={this.handle_scroll} ref={ref_id => this.wheel = ref_id} style={styles.wheel}> */}
                 <div ref={ref_id => this.wheel = ref_id} style={styles.wheel}>
                     {this.state.cards}
