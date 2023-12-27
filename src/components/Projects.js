@@ -136,6 +136,9 @@ export const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Row>
                         <h1 data-text="Portfolio Web">Portfolio Web</h1>
+                        <div className="projDiv">
+                          <a href="https://phevelyndenise.netlify.app/" target="_blank"><span>Visitar</span></a>
+                        </div>
                         {
                           projects.map((project, index) => {
                             return (
