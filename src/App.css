@@ -1012,7 +1012,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx-animated img{
   width: 18%;
   animation: scalecircle 3s linear infinite;
-  opacity: 0.5;
+  opacity: 0.8;
   /* border-radius: 40px; */
   /* -webkit-box-reflect: right -29px linear-gradient(transparent, #0002); */
 }
@@ -1024,21 +1024,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx-animated {
-  /* height: 70px; */
-  position: relative;
-  /* border-radius: 30px; */
-  overflow: hidden;
-  margin-bottom: 24px;
-  justify-content: center;
-  display: grid;
-  /* position: absolute; */
-  text-align: center;
-  /* top: 65%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* transition: 0.5s ease-in-out; */
-  /* opacity: 0; */
-  width: 100%;
+  .proj-txtx-animated {
+    /* height: 70px; */
+    position: relative;
+    /* border-radius: 30px; */
+    overflow: hidden;
+    margin-bottom: 24px;
+    justify-content: center;
+    display: grid;
+    /* position: absolute; */
+    text-align: justify;
+    /* transform: translate(-50%, -50%); */
+    /* transition: 0.5s ease-in-out; */
+    /* opacity: 0; */
+    width: 85%;
+}
 }
 .proj-txtx-animated h4 {
   font-size: 30px;

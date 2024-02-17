@@ -1,9 +1,9 @@
 import vittoProjImg1 from "../../assets/img/vittoriFront1.png";
 import vittoProjImg2 from "../../assets/img/vittoriFront2.png";
 import vittoProjImg3 from "../../assets/img/vittoriFront3.png";
-import workImg1 from "../../assets/img/IconoDiseñoProgram.png";
-import workImg2 from "../../assets/img/IconoDiseñoBranding.png";
-import workImg3 from "../../assets/img/IconoDiseñoAnimacion.png";
+import workImg1 from "../../assets/img/program.png";
+import workImg2 from "../../assets/img/branding.png";
+import workImg3 from "../../assets/img/animation.png";
 
 export const VITTORI_PROJECTS = [
     {
@@ -46,13 +46,13 @@ export const VITTORI_COLORS = [
 export const VITTORI_WORKS = [
     {
       title: "Desarrollo de código",
-      description: "Cree una base para almacenar los vehículos y una web única que busca separarse"
+      description: "Creé una base para almacenar los vehículos y una web única que busca separarse"
       + " del resto existente en el mercado; el cliente hoy disfruta de su propia arquitectura escalable.",
       videoUrl: workImg1,
     },
     {
       title: "Branding",
-      description: "Trabaje en equipo con una UX/UI quien se encargó de encontrar los diseños mas eficientes y visualmente atractivos para destacar la página.",
+      description: "Me encargué de encontrar los diseños mas eficientes y visualmente atractivos para destacar la página.",
       videoUrl: workImg2,
     },
     {
