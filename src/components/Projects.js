@@ -90,7 +90,7 @@ export const Projects = () => {
                       <Row>
                         <h1 data-text="Concesionaria">Concesionaria</h1>
                         <div className="projDiv">
-                          <a href="https://vittoriaautomobili.netlify.app/" target="_blank"><span>Visitar</span></a>
+                          <a href="https://vittoriaautomobili.com/" target="_blank"><span>Visitar</span></a>
                         </div>
                         {
                           VITTORI_PROJECTS.map((project, index) => {
