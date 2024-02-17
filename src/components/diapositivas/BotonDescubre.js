@@ -52,7 +52,7 @@ export const BotonDescubre = () => {
           <Col xs={12} md={12} xl={12}>
             <TrackVisibility>
             <div id="buttonDivDescubre"></div>
-            <a href="/program"><span>Conoce mas!</span></a>
+            <a href="/program"><span>Conoce más!</span></a>
             </TrackVisibility>
           </Col>
         </Row>
