@@ -3,7 +3,7 @@ import vittoProjImg2 from "../../assets/img/vittoriFront2.png";
 import vittoProjImg3 from "../../assets/img/vittoriFront3.png";
 import workImg1 from "../../assets/img/program.png";
 import workImg2 from "../../assets/img/branding.png";
-import workImg3 from "../../assets/img/animation.png";
+import workImg3 from "../../assets/img/complexity.png";
 
 export const VITTORI_PROJECTS = [
     {

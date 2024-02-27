@@ -117,7 +117,7 @@ export const Projects = () => {
                         }
                         </Row>
                         <Row>
-                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
+                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px', fontFamily: 'SwitzerLight'}}>Qué hice</h2>
                         {
                           VITTORI_WORKS.map((work, index) => {
                             return (
@@ -164,7 +164,7 @@ export const Projects = () => {
                         }
                         </Row>
                         <Row>
-                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>Qué hice</h2>
+                        <h2 style={{textAlign: 'center', marginTop: '30px', fontSize: '50px', fontFamily: 'SwitzerLight'}}>Qué hice</h2>
                         {
                           works.map((work, index) => {
                             return (
