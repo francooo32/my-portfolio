@@ -98,7 +98,7 @@ function WheelDivs() {
     else if(formDivsId == 0){
         return(
             <div id="divWheel"> 
-                <h1 class="animate__animated animate__fadeInLeft">Analizo continuamente</h1>
+                <h1 class="animate__animated animate__fadeInLeft">Análisis continuo</h1>
                 <p class="animate__animated animate__flipInX">
                     Analizo continuamente el código y diseño para encontrar cualquier chance
                     de mejora que se pueda ofrecer a mis clientes, ya sea tecnológica o de comunicación,
