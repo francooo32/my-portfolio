@@ -1,6 +1,6 @@
 import React from 'react'
 import { Cursor } from 'react-bootstrap-icons';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import "./Wheel.css"
 
 function get_my_coords(theta, radius){

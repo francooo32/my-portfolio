@@ -1284,6 +1284,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+#slideInUpWheelResponsive{
+display: none;
+}
+
 @media (max-width:1563px) and (min-width:961px){
 
   .workprocess-about {
@@ -1299,7 +1303,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   #divWheel h1{
     margin-top: 10%;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: SwitzerMedium;
     font-weight: 600;
     font-size: 45px;
   }
@@ -1307,18 +1311,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   #divWheel p{
     width: 75%;
     margin-top: 5%;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: SwitzerExtraLightItalic;
     font-weight: lighter;
     font-size: 20px;
     line-height: 1.6;
   }
+
+  #slideInUpWheelResponsive{
+    display: none;
+    }
 }
 
 @media (max-width:960px){
   #divWheel h1{
     /* margin-top: 10%; */
     text-align: -webkit-center;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: SwitzerMedium;
     font-weight: 600;
     font-size: 30px;
   }
@@ -1327,11 +1335,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
     margin-top: 10%;
     text-align: -webkit-center;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: SwitzerExtraLightItalic;
     font-weight: lighter;
     font-size: 12px;
     line-height: 1.6;
 }
+
+#slideInUpWheelResponsive{
+  display: flex;
+  }
+
+  #slideInUpWheelResponsive > div{
+    margin-top: 15%;
+  }
+
+  .divResponsive{
+    display: flex;
+    
+    margin-left: 5%;
+  }
+
+  .responsive-wheel-imgbx-animated{
+    margin-top: 15%;
+  }
+
 }
 
 /************ TransitionAbout Css ************/

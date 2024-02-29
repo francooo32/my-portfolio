@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Tab} from "react-bootstrap";
+import { ResponsiveWheelIcons } from "./ResponsiveWheelIcons.js";
+import { RESPONSIVE_WHEEL_CONSTS_1,  RESPONSIVE_WHEEL_CONSTS_2} from "./constants/ImgConstants.js";
 import Wheel from '../components/wheelComponente/Wheel.js'
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 export const WorkProcess = () => {
 
@@ -26,6 +28,18 @@ export const WorkProcess = () => {
     return () => { clearInterval(ticker) };
   }, [text])
 
+  const works = [
+    {
+      title: "Desarrollo de código"
+    },
+    {
+      title: "Branding"
+    },
+    {
+      title: "Animaciones"
+    },
+  ];
+
   
   return (
     <section className="workprocess-about">
@@ -40,7 +54,41 @@ export const WorkProcess = () => {
             //     mis conocimientos como desarrollador full stack me permiten adaptarme
             //     a micro y macro necesidades de mis clientes`} </h3>
             //     </div>
-                <Wheel/>
+                <>
+                  <Wheel />
+                      <Tab.Container id="responsiveWheel-tabs">
+                      <Tab.Content id="slideInUpWheelResponsive" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                            <Row>
+                            <div className="divResponsive">
+                                {
+                                  RESPONSIVE_WHEEL_CONSTS_1.map((wheel, index) => {
+                                    return (
+                                      <ResponsiveWheelIcons
+                                        key={index}
+                                        index={index}
+                                        {...wheel}
+                                        />
+                                    )
+                                  })
+                                }
+                            </div>
+                            <div className="divResponsive">
+                                {
+                                  RESPONSIVE_WHEEL_CONSTS_2.map((wheel, index) => {
+                                    return (
+                                      <ResponsiveWheelIcons
+                                        key={index}
+                                        index={index+3}
+                                        {...wheel}
+                                        />
+                                    )
+                                  })
+                                }
+                            </div>
+                          </Row>
+                      </Tab.Content>
+                    </Tab.Container>
+                </>
               }
             </TrackVisibility>
           </Col>
