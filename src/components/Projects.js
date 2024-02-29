@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
-import { VITTORI_PROJECTS, VITTORI_COLORS, VITTORI_WORKS } from "./ProjectsConst/ProjectConsts";
+import { VITTORI_PROJECTS, VITTORI_COLORS, VITTORI_WORKS } from "./constants/ProjectConsts";
 import { ProjectCard } from "./ProjectCard";
 import { ColorPallet } from "./ColorPallet";
 import { WorkCircle } from "./WorkCircle";
